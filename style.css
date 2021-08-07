@@ -140,9 +140,6 @@ header, section{
     margin: 5px;
 }
 
-.easyLoginBtns div:hover{
-    cursor: pointer;
-}
 
 .easyLoginBtns div button{
     width: 100%;
@@ -152,6 +149,9 @@ header, section{
     border: none;
 }
 
+.easyLoginBtns div button:hover{
+    cursor: pointer;
+}
 
 .easyLoginBtns div button span{
     font-size: var(--font-medium);
