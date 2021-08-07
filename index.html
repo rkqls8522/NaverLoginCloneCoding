@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f46cc3a182.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>naverLogin_mobile</title>
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <div class="languageBox">
+            <select name="langSelect" id="langSelect">
+                <option value="korean">한국어</option>
+                <option value="english">english</option>
+            </select>
+        </div>
+        <div class="naverLogo">
+            <img src="image/naver_logo.png" alt="">
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- loginform start -->
+    <section class="loginForm">
+        <div class="login_id">
+            <input type="text" class="logintext" placeholder="아이디">
+        </div>
+        <div class="login_pw">
+            <input type="text" class="logintext" placeholder="비밀번호">
+        </div>
+        <div class="submit">
+            <input type="button" value="로그인">
+        </div>
+        <div class="loginCheck">
+            <div class="maintain">
+                <span><i class="far fa-check-circle"></i></span>
+                <span>로그인 상태 유지</span>
+            </div>
+            <div class="ipOnOff">
+                <button>
+                    <span>ip 보안</span>
+                </button>
+                <span>OFF</span>
+            </div>
+        </div>
+    </section>
+    <!-- loginform end -->
+
+    <!-- easyLogin start -->
+    <section class="easyLogin">
+        <div class="title">
+            <h2>더욱 간편한 로그인</h2>
+        </div>
+        <div class="easyLoginBtns">
+            <div class="qrLoginBox">
+
+                <button class="qrLogin">
+                    <span><i class="fas fa-qrcode"></i></span>
+                    <span>QR코드 로그인</span>
+                </button>
+            </div>
+            <div class="disLoginBox">
+
+                <button class="disLogin">
+                    <span><img src="image/disposable_icon.png" alt=""></span>
+                    <span>일회용 번호 로그인</span>
+                </button>
+            </div>
+        </div>
+        <div class="otherActive">
+            <a href="/">아이디 찾기</a>
+            <span>|</span>
+            <a href="/">비밀번호 찾기</a>
+            <span>|</span>
+            <a href="/">회원가입</a>
+        </div>
+    </section>
+    <!-- easyLogin end -->
+
+    <!-- banner start -->
+    <section class="banner">
+        <div class="bannerArea">
+            <img src="image/naver_banner.png" alt="">
+        </div>
+    </section>
+    <!-- banner end -->
+</body>
+</html>
